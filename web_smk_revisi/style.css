@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+
+
+body{
+     background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+
+
+
+.container{
+    margin-left: 250px;
+    margin-top: 150px;
+    width: 70%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 100px;
+}
+
+.item1{
+    display: inline-block;
+
+}
+
+.totalpplg1,.totalpplg2,.totalrpl1,.totalrpl2{
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 10px ;
+}
+
+.totalpplg1,.totalpplg2{
+    height: 150px;
+}
+
+.wraper2{
+    width: 205px;
+}
+
+
+.keterangan10{
+    display: grid;
+    height: 100px;
+    width: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25px 25px;
+    text-align: center;
+    margin-top: 30px;
+    gap: 10px;
+    
+}
+
+.totalpplg1 h2,.totalpplg2 h2,.totalrpl1 h2,.totalrpl2 h2{
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.wraper1,.wraper2{
+display: flex;
+}
+
+.wraper2{
+    flex-direction: column;
+}
+
+.ket1,.ket2{
+    border-radius: 15px;
+    background-color: white;
+   
+}
+
+
+.item1,.item2,.item3{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );  
+    margin: 10px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.menu{
+    padding: 30px;
+}
+
+
+.menu:active svg{
+    transform: scale(0.8);
+    animation: 3s ease-in-out;
+}
+
+svg{
+    color: white;
+    width: 4em;
+    height: 4em;
+    animation: 4s ease-in-out  ;
+}
+
+
+/*khusus yang ada di dalam item2*/
+
+.item2{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 90%;
+    height: 30%;
+    border-radius: 15px;
+    background-image: url("//www.smkmutucikampek.sch.id/wp-content/uploads/2019/11/74607778_2404481266347302_9214144041921282048_o-750x410.jpg");
+    background-size: cover;
+    background-position: center ;
+}
